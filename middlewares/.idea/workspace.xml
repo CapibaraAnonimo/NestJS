@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d59c79c-2ecd-40a5-9b64-08567661344a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/middlewares.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.controller.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.controller.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.service.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/middlewares/validator/validator.middleware.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/middlewares/validator/validator.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/middlewares/validator/validator.middleware.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/dto/create-user.dto.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/dto/create-user.dto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/dto/create-user.dto.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/dto/update-user.dto.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/dto/update-user.dto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/dto/update-user.dto.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/entities/user.entity.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/entities/user.entity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/entities/user.entity.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.controller.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.controller.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.service.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middlewares/logger.middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middlewares/validator/validator.middleware.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middlewares/validator/validator.middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/dto/create-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/dto/update-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/entities/user.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/users.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/users.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/users.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/users.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/users.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HUSqOX0bLDFJlKBO43zySBR19c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/adria/repositorios/NestJS/middlewares",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "proofread",
+    "ts.external.directory.path": "C:\\Users\\adria\\repositorios\\NestJS\\middlewares\\node_modules\\typescript\\lib"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adria\repositorios\NestJS\middlewares\src\middlewares\validator" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d59c79c-2ecd-40a5-9b64-08567661344a" name="Changes" comment="" />
+      <created>1668338419540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668338419540</updated>
+      <workItem from="1668338437377" duration="4489000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
