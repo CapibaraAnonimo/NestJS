@@ -17,6 +17,10 @@ const common_1 = require("@nestjs/common");
 const users_service_1 = require("./users.service");
 const create_user_dto_1 = require("./dto/create-user.dto");
 const update_user_dto_1 = require("./dto/update-user.dto");
+const general_exeption_filter_1 = require("../filters/exceptions/general-exeption/general-exeption.filter");
+const custom_pipe_1 = require("../pipes/custom/custom.pipe");
+const create_user_validator_pipe_1 = require("../pipes/create-user-validator/create-user-validator.pipe");
+const create_user_schema_1 = require("../pipes/create-user-validator/create-user.schema");
 let UsersController = class UsersController {
     constructor(usersService) {
         this.usersService = usersService;
@@ -28,6 +32,7 @@ let UsersController = class UsersController {
         return this.usersService.findAll();
     }
     findOne(id) {
+        console.log(typeof id);
         return this.usersService.findOne(+id);
     }
     update(id, updateUserDto) {
@@ -39,6 +44,7 @@ let UsersController = class UsersController {
 };
 __decorate([
     (0, common_1.Post)(),
+    (0, common_1.UsePipes)(new create_user_validator_pipe_1.CreateUserValidatorPipe(create_user_schema_1.CreateUserSchema)),
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [create_user_dto_1.CreateUserDto]),
@@ -52,7 +58,7 @@ __decorate([
 ], UsersController.prototype, "findAll", null);
 __decorate([
     (0, common_1.Get)(':id'),
-    __param(0, (0, common_1.Param)('id')),
+    __param(0, (0, common_1.Param)('id', common_1.ParseIntPipe)),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
@@ -67,13 +73,14 @@ __decorate([
 ], UsersController.prototype, "update", null);
 __decorate([
     (0, common_1.Delete)(':id'),
-    __param(0, (0, common_1.Param)('id')),
+    __param(0, (0, common_1.Param)('id', new custom_pipe_1.CustomPipe())),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
 ], UsersController.prototype, "remove", null);
 UsersController = __decorate([
     (0, common_1.Controller)('users'),
+    (0, common_1.UseFilters)(new general_exeption_filter_1.GeneralExeptionFilter()),
     __metadata("design:paramtypes", [users_service_1.UsersService])
 ], UsersController);
 exports.UsersController = UsersController;

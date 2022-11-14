@@ -10,19 +10,28 @@ exports.UsersService = void 0;
 const common_1 = require("@nestjs/common");
 let UsersService = class UsersService {
     create(createUserDto) {
-        return 'This action adds a new user';
+        throw new common_1.HttpException({ error: 'metodo no implementado', statu: common_1.HttpStatus.NOT_IMPLEMENTED }, common_1.HttpStatus.NOT_IMPLEMENTED);
     }
     findAll() {
         return `This action returns all users`;
     }
     findOne(id) {
-        return `This action returns a #${id} user`;
+        if (id === 1) {
+            return `This action returns a #${id} user`;
+        }
+        throw new common_1.NotFoundException({
+            error: 'error al buscar usuario',
+        }, 'usuario no encontrado');
     }
     update(id, updateUserDto) {
-        return `This action updates a #${id} user`;
+        throw new common_1.HttpException({
+            error: 'error al actualizar usuario',
+            statu: common_1.HttpStatus.INTERNAL_SERVER_ERROR,
+        }, common_1.HttpStatus.NOT_IMPLEMENTED);
     }
     remove(id) {
         return `This action removes a #${id} user`;
+        throw new common_1.NotImplementedException({ error: 'metodo no implementado' }, 'metodo no implementado');
     }
 };
 UsersService = __decorate([

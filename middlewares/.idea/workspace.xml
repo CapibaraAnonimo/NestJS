@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d59c79c-2ecd-40a5-9b64-08567661344a" name="Changes" comment="hecho el ejemplo de middlewares">
+    <list default="true" id="4d59c79c-2ecd-40a5-9b64-08567661344a" name="Changes" comment="hecho el ejemplo de excepciones">
+      <change afterPath="$PROJECT_DIR$/src/pipes/create-user-validator/create-user-validator.pipe.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pipes/create-user-validator/create-user-validator.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pipes/create-user-validator/create-user.schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pipes/custom/custom.pipe.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pipes/custom/custom.pipe.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/dto/create-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/dto/create-user.dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668338419540</updated>
       <workItem from="1668338437377" duration="4896000" />
-      <workItem from="1668413894033" duration="3103000" />
+      <workItem from="1668413894033" duration="5533000" />
     </task>
     <task id="LOCAL-00001" summary="hecho el ejemplo de middlewares">
       <created>1668365013646</created>
@@ -80,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668365044676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hecho el ejemplo de excepciones">
+      <created>1668417102577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668417102577</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hecho el ejemplo de middlewares" />
-    <option name="LAST_COMMIT_MESSAGE" value="hecho el ejemplo de middlewares" />
+    <MESSAGE value="hecho el ejemplo de excepciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="hecho el ejemplo de excepciones" />
   </component>
 </project>

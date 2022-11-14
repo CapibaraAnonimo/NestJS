@@ -10,12 +10,20 @@ exports.UsersModule = void 0;
 const common_1 = require("@nestjs/common");
 const users_service_1 = require("./users.service");
 const users_controller_1 = require("./users.controller");
+const core_1 = require("@nestjs/core");
+const general_exeption_filter_1 = require("../filters/exceptions/general-exeption/general-exeption.filter");
 let UsersModule = class UsersModule {
 };
 UsersModule = __decorate([
     (0, common_1.Module)({
         controllers: [users_controller_1.UsersController],
-        providers: [users_service_1.UsersService]
+        providers: [
+            users_service_1.UsersService,
+            {
+                provide: core_1.APP_FILTER,
+                useClass: general_exeption_filter_1.GeneralExeptionFilter,
+            },
+        ],
     })
 ], UsersModule);
 exports.UsersModule = UsersModule;
