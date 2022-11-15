@@ -1,7 +1,7 @@
 import {
   HttpException,
   HttpStatus,
-  Injectable,
+  Injectable, Logger,
   NotFoundException,
   NotImplementedException,
 } from '@nestjs/common';
@@ -10,6 +10,7 @@ import { UpdateUserDto } from './dto/update-user.dto';
 
 @Injectable()
 export class UsersService {
+  private readonly logger = new Logger(UsersService.name);
   create(createUserDto: CreateUserDto) {
     //return 'This action adds a new user';
     throw new HttpException(
@@ -19,6 +20,11 @@ export class UsersService {
   }
 
   findAll() {
+    this.logger.log(`This action returns all users`);
+    this.logger.debug(`This action returns all users`);
+    this.logger.error(`This action returns all users`);
+    this.logger.warn(`This action returns all users`);
+    this.logger.verbose(`This action returns all users`);
     return `This action returns all users`;
   }
 
