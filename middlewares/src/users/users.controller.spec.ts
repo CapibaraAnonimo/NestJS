@@ -4,6 +4,7 @@ import { UsersService } from './users.service';
 
 describe('UsersController', () => {
   let controller: UsersController;
+  let usersService: UsersService;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
@@ -29,7 +30,7 @@ describe('UsersController', () => {
         userType: 'admin',
       };
       jest.spyOn(usersService, 'create').mockImplementation(() => mockUser);
-      const result = usersController.create(mockUser);
+      const result = controller.create(mockUser);
       expect(result).toBe(mockUser);
     });
 
@@ -42,13 +43,13 @@ describe('UsersController', () => {
         single: true,
         userType: 'admin',
       };
-      jest.spyOn(userService, 'create').mockImplementation(() => {
+      jest.spyOn(usersService, 'create').mockImplementation(async () => {
         try {
-          await usercontroller.create(mockUser);
+          await controller.create(mockUser);
         } catch (error) {
-
+          expect(error.message().toBe('invalid user data'));
         }
-      })
+      });
     });
   });
 });
